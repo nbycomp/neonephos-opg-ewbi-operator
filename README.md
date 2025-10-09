@@ -84,7 +84,13 @@ kubectl delete -f config/samples/appInstGuest.yaml
 
 Useful commands to build and push the binaries in this repo and to create the helm charts with CRDs.
 
-Please check the Makefile and configure according to your needs.
+Please check the Makefile and configure according to your needs, especially these:
+
+```bash
+# Image URL to use all building/pushing image targets
+IMG ?= registry.example.com/operators/opg-ewbi-operator:neonephos
+PLATFORM ?= linux/arm64
+```
 
 ```bash
 make docker-build-controller 
