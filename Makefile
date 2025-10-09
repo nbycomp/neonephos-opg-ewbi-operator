@@ -1,6 +1,6 @@
 # Image URL to use all building/pushing image targets
-IMG ?= registry.nearbycomputing.com/operators/opg-ewbi-operator:neonephos
-HOSTIMG ?= registry.nearbycomputing.com/operators/opg-ewbi-api:neonephos
+IMG ?= registry.example.com/operators/opg-ewbi-operator:neonephos
+HOSTIMG ?= registry.example.com/operators/opg-ewbi-api:neonephos
 PLATFORM ?= linux/arm64
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
 ENVTEST_K8S_VERSION = 1.31.0
